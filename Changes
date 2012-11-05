@@ -1,0 +1,4 @@
+Revision history for {{$dist->name}}
+
+{{$NEXT}}
+        - Pod::Weaver pluginbundle for all Tapper libs
