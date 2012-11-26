@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.002     2012-11-26
         - dzil pluginbundle TAPPER
         - more explicit deps
 
