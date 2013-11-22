@@ -60,7 +60,7 @@ This plugin bundle is equivalent to the following weaver.ini file:
   [-Transformer]
   transformer = List
 
-  [-Encoding]
+  [-SingleEncoding]
 
 =begin Pod::Coverage
 
@@ -93,7 +93,7 @@ sub mvp_bundle_config {
         [ '@TAPPER/Legal',     _exp('Legal'),        {} ],
 
         [ '@TAPPER/List',      _exp('-Transformer'), { transformer => 'List' } ],
-        [ '@TAPPER/Encoding',  _exp('-Encoding'),    {} ],
+        [ '@TAPPER/SingleEncoding',  _exp('-SingleEncoding'),               {} ],
     );
 }
 
